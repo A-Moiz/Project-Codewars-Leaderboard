@@ -4,8 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codewars leaderboard</title>
+    <script src="index.mjs" defer></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
-
-  <script src="index.mjs" type="module"></script>
+  <body>
+    <h1>Codewars Leaderboard</h1>
+    <main>
+      <form>
+        <label>Enter Codewars users (comma separated)</label>
+        <br />
+        <input
+          type="search"
+          id="search"
+          name="search"
+          placeholder="Search..."
+        />
+        <button type="submit">Submit</button>
+      </form>
+      <table>
+        <tr>
+          Username
+        </tr>
+        <tr>
+          Clan
+        </tr>
+        <tr>
+          Score
+        </tr>
+      </table>
+    </main>
+  </body>
 </html>

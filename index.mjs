@@ -6,3 +6,6 @@
 export function makeFetchRequest() {
   return fetch("https://example.com/test");
 }
+
+// URLs
+let GET_USER = "https://www.codewars.com/api/v1/users/{user}";
